@@ -1,6 +1,7 @@
 import BackgroundPaths from './Homepage/Stackedbackground';
 import Header from './Homepage/Header';
 import HomepageBody from './Homepage/HomepageBody';
+import Services from './Services/Services';
 
 function ecomm() {
   return (
@@ -9,6 +10,7 @@ function ecomm() {
         <BackgroundPaths />
         <Header />
         <HomepageBody />
+        <Services />
       </header>
     </div>
   );

@@ -23,7 +23,7 @@ function HomepageBody() {
                     position: "absolute",
                 }}
             >
-                <img src={dogPic} />
+                <img src={dogPic} alt="dog" />
             </Box>
             <div
                 style={{
@@ -258,7 +258,7 @@ function HomepageBody() {
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
-                    margin: "10vw",
+                    margin: "10vw 10vw 4vw 10vw",
                     zIndex: 5,
                     borderRadius: "10px",
                     gap: "8vw",
