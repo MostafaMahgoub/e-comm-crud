@@ -2,19 +2,19 @@ import Box from '@mui/material/Box';
 import path1 from '../Homepage/assets/Path-1.png'
 import path2 from '../Homepage/assets/Path-2.png'
 import pathOutline from '../Homepage/assets/Path-outline.png'
-
 interface Props {
-  backgrounds: string[];
+    backgrounds: string[];
 }
 
-function StackedBackground({ backgrounds }: Props) {
-    return (
-      <Box
+function StackedBackground({
+    backgrounds
+}: Props) {
+    return (<Box
         position="absolute"
         width="100%"
         height="100%"
         right= "-20%"
-        top= "0%"
+        top= "-10%"
         sx={{ zIndex: 0 }}
       >
         {backgrounds.map((background, index) => (
@@ -27,21 +27,17 @@ function StackedBackground({ backgrounds }: Props) {
             height={index === 0 ? "1125px" : index === 1 ? "1102px" : "1206.09px"}
             style={{
               backgroundImage: `url(${background})`,
-            //   backgroundPosition: index === 1 ? 'none' : 'center',
               backgroundSize: 'cover',
               zIndex: backgrounds.length - index,
               transform: index === 0 ? "rotate(-1.27deg)" : index === 2 ? "rotate(-2.27deg)" : "none",
             }}
           />
         ))}
-      </Box>
-    );
+      </Box>);
 }
 
 function BackgroundPaths() {
     const backgrounds = [pathOutline, path2, path1];
-
-  return <StackedBackground backgrounds={backgrounds} />;
+    return <StackedBackground backgrounds={backgrounds} />;
 }
-
 export default BackgroundPaths;
