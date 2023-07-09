@@ -10,11 +10,12 @@ interface Props {
 function StackedBackground({ backgrounds }: Props) {
     return (
       <Box
-        position="fixed"
+        position="absolute"
         width="100%"
         height="100%"
         right= "-20%"
         top= "0%"
+        sx={{ zIndex: 0 }}
       >
         {backgrounds.map((background, index) => (
           <Box
