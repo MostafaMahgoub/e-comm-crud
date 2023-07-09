@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+# Project Description
+This project is a React application that represents the home of an e-commerce website and includes product CRUD operations from the dashboard. The application is built using React, React-Query, Material UI, and Typescript. The product CRUD operations include creating, deleting, and updating products, as well as updating product categories, creating variants, deleting variants, changing attributes, uploading images, and getting attributes and categories.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Installation Instructions
+To install the application, follow these steps:
+1. Clone the repository to your local machine.
+2. Install the required dependencies by running `npm install`.
+3. Start the application by running `npm start`.
 
-## Available Scripts
+# Usage Instructions
+To use the application, follow these instructions:
+1. Navigate to the home page at `http://localhost:3000/`.
+2. Use the navigation menu to access the product CRUD operations at `http://localhost:3000/products`.
+3. Follow the instructions on the page to perform the product CRUD operations.
 
-In the project directory, you can run:
+# API Endpoints
+The following API endpoints are used in the application:
+- `/api/products` - CRUD operations for products
+- `/api/categories` - CRUD operations for categories
+- `/api/variants` - CRUD operations for variants
+- `/api/attributes` - CRUD operations for attributes
 
-### `npm start`
+# Product CRUD Operations
+To perform the product CRUD operations, follow these instructions:
+- Create product: Click the "Create Product" button and fill in the required information.
+- Delete product: Click the "Delete" button next to the product you want to delete.
+- Update translate: Click the "Edit" button next to the product you want to update and enter the new translation.
+- Update product category: Click the "Edit" button next to the product you want to update and select the new category.
+- Create variant: Click the "Create Variant" button and fill in the required information.
+- Delete variant: Click the "Delete" button next to the variant you want to delete.
+- Change attributes + delete attributes (in the same request): Click the "Edit" button next to the product you want to update and select the new attributes.
+- Upload images + remove images (in the same request): Click the "Edit" button next to the product you want to update and select the new images.
+- Get attributes: Click the "Attributes" button to view the attributes.
+- Get categories: Click the "Categories" button to view the categories.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Bonus Features
+The application includes a CSS3 background image behind the dog in the banner section.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Technologies Used
+The application was built using the following technologies:
+- React
+- React-Query
+- Material UI
+- Typescript
+- React-Router-Dom
 
-### `npm test`
+# Contributors
+- [Mostafa Reda](https://github.com/MostafaMahgoub)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Conclusion
+Thank you for using our e-commerce website application. We invite your feedback and suggestions for further improvements.
