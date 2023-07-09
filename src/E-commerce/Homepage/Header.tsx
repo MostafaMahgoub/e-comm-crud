@@ -47,10 +47,22 @@ function Header() {
                         sx={{ flexGrow: 1 }}
                     >
                         <Box sx={{ display: "flex", gap: "1vw" }}>
-                            <img src={FbIcon} alt="Facebook" />
-                            <img src={InstaIcon} alt="Instagram" />
-                            <img src={TwitterIcon} alt="Twitter" />
-                            <img src={WhatsIcon} alt="WhatsApp" />
+                            <img src={FbIcon} alt="Facebook" style={{
+                                width: "fit-content",
+                                height: "fit-content",
+                            }} />
+                            <img src={InstaIcon} alt="Instagram" style={{
+                                width: "fit-content",
+                                height: "fit-content",
+                            }}/>
+                            <img src={TwitterIcon} alt="Twitter" style={{
+                                width: "fit-content",
+                                height: "fit-content",
+                            }}/>
+                            <img src={WhatsIcon} alt="WhatsApp" style={{
+                                width: "fit-content",
+                                height: "fit-content",
+                            }}/>
                         </Box>
                     </Typography>
                     <Box
