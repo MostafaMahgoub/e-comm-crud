@@ -33,8 +33,6 @@ To perform the product CRUD operations, follow these instructions:
 - Get attributes: Click the "Attributes" button to view the attributes.
 - Get categories: Click the "Categories" button to view the categories.
 
-# Bonus Features
-The application includes a CSS3 background image behind the dog in the banner section.
 
 # Technologies Used
 The application was built using the following technologies:
