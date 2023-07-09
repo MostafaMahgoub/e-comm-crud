@@ -1,4 +1,3 @@
-import React from 'react';
 import Box from '@mui/material/Box';
 import path1 from '../Homepage/assets/Path-1.png'
 import path2 from '../Homepage/assets/Path-2.png'
