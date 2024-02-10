@@ -1,4 +1,4 @@
-# Project Description
+# Petopia
 This project is a React application that represents the home of an e-commerce website and includes product CRUD operations from the dashboard. The application is built using React, React-Query, Material UI, and Typescript. The product CRUD operations include creating, deleting, and updating products, as well as updating product categories, creating variants, deleting variants, changing attributes, uploading images, and getting attributes and categories.
 
 # Preview
