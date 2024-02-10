@@ -1,0 +1,62 @@
+{
+    "Featured Products": [
+      {
+        "title": "Card 1",
+        "stars": 4,
+        "price": "$19.99",
+        "image": "/card1.jpg"
+      },
+      {
+        "title": "Card 2",
+        "stars": 3,
+        "price": "$14.99",
+        "image": "/card2.jpg"
+      },
+      {
+        "title": "Card 3",
+        "stars": 5,
+        "price": "$24.99",
+        "image": "/card3.jpg"
+      }
+    ],
+    "On Sale Products": [
+      {
+        "title": "Card 4",
+        "stars": 4,
+        "price": "$9.99",
+        "image": "/card4.jpg"
+      },
+      {
+        "title": "Card 5",
+        "stars": 3,
+        "price": "$7.99",
+        "image": "/card5.jpg"
+      },
+      {
+        "title": "Card 6",
+        "stars": 5,
+        "price": "$12.99",
+        "image": "/card6.jpg"
+      }
+    ],
+    "Top Rated Products": [
+      {
+        "title": "Card 7",
+        "stars": 4,
+        "price": "$29.99",
+        "image": "/card7.jpg"
+      },
+      {
+        "title": "Card 8",
+        "stars": 3,
+        "price": "$24.99",
+        "image": "/card8.jpg"
+      },
+      {
+        "title": "Card 9",
+        "stars": 5,
+        "price": "$34.99",
+        "image": "/card9.jpg"
+      }
+    ]
+  }

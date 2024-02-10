@@ -1,6 +1,10 @@
 # Project Description
 This project is a React application that represents the home of an e-commerce website and includes product CRUD operations from the dashboard. The application is built using React, React-Query, Material UI, and Typescript. The product CRUD operations include creating, deleting, and updating products, as well as updating product categories, creating variants, deleting variants, changing attributes, uploading images, and getting attributes and categories.
 
+# Preview
+
+![Preview](Petopia.png)
+
 # Installation Instructions
 To install the application, follow these steps:
 1. Clone the repository to your local machine.
@@ -42,9 +46,7 @@ The application was built using the following technologies:
 - Typescript
 - React-Router-Dom
 
-# Contributors
-- [Mostafa Reda](https://github.com/MostafaMahgoub)
-
+</br>
 
 # Conclusion
 Thank you for using our e-commerce website application. We invite your feedback and suggestions for further improvements.
